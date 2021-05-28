@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .left {
+            margin-left: 20%;
+        }
+    </style>
+    <title>User Profile</title>
+</head>
+<body>
+    <div class="w3-bar w3-aqua w3-card w3-round border w3-large">
+        <a href="index.html" class="w3-bar-item w3-button" style="width: 16.66%">Home</a>
+        <a href="personal_tasks.html" class="w3-bar-item w3-button" style="width: 16.66%">Personal Tasks</a>
+        <a href="professional_tasks.html" class="w3-bar-item w3-button" style="width: 16.66%">Professional Tasks</a>
+        <a href="#" class="w3-bar-item w3-button w3-blue" style="width: 16.66%">User Profile</a>
+        <a href="registration.html" class="w3-bar-item w3-button" style="width: 16.66%">User Registration</a>
+        <a href="about_me.html" class="w3-bar-item w3-button" style="width: 16.66%">About Me</a>
+    </div>
+    <br>
+        <div class="w3-container left" style="width: 60%;">
+            <div class="w3-card-4">
+                <div class="w3-container w3-cyan">
+                    <h2 id="userHello"></h2>
+                </div>
+                <br>
+                <table class="w3-table-all w3-hoverable w3-centered" id="userInfo">
+                    <tr>
+                        <th>Name </th>
+                        <td id="name"></td>
+                    </tr>
+                    <tr>
+                        <th>Email </th>
+                        <td id="email"></td>
+                    </tr>
+                    <tr>
+                        <th>Phone </th>
+                        <td id="phone"></td>
+                    </tr>
+                    <tr>
+                        <th>Gender </th>
+                        <td id="gender"></td>
+                    </tr>
+                </table>
+            </div>    
+        </div> 
+    <script src="Javascript/user_profile.js"></script>       
+</body>
+</html>

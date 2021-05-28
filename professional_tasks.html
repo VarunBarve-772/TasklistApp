@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .left {
+            margin-left: 20%;
+        }
+    </style>
+    <title>Professional Tasks</title>
+</head>
+<body>
+    <div class="w3-bar w3-deep-orange w3-card w3-round border w3-large">
+        <a href="index.html" class="w3-bar-item w3-button" style="width: 16.66%">Home</a>
+        <a href="personal_tasks.html" class="w3-bar-item w3-button" style="width: 16.66%">Personal Tasks</a>
+        <a href="#" class="w3-bar-item w3-button w3-red" style="width: 16.66%">Professional Tasks</a>
+        <a href="user_profle.html" class="w3-bar-item w3-button" style="width: 16.66%">User Profile</a>
+        <a href="registration.html" class="w3-bar-item w3-button" style="width: 16.66%">User Registration</a>
+        <a href="about_me.html" class="w3-bar-item w3-button" style="width: 16.66%">About Me</a>
+    </div>
+    <br>
+    <div class="w3-container left" style="width: 60%;">
+        <div class="w3-card">
+            <div class="w3-container w3-yellow">
+                <h2>Professional Tasks</h2>
+              </div>
+              
+              <form class="w3-container" id="tasks">
+                <p>
+                    <label for="taskInput">Task List</label>
+                    <input class="w3-input w3-animate-input" id="taskInput" type="text" style="width:135px">
+                    <br>
+                    <input class="w3-btn w3-amber" type="button" value="Add Task" id="addTask">
+                </p>
+                <hr>
+                <div class="w3-container w3-orange">
+                    <h2>Tasks</h2>
+                </div>
+                <br>
+                <ul class="w3-ul w3-hoverable w3-border" id="displayTasks"></ul>
+              </form>
+              <br>
+        </div>
+    </div>
+    <script src="Javascript/task.js"></script>
+</body>
+</html>
